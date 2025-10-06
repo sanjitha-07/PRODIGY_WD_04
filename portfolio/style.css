@@ -1,0 +1,82 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  color: white;
+  transition: background 0.4s, color 0.4s;
+}
+
+body.light {
+  background: linear-gradient(135deg, #f8ffae, #43c6ac);
+  color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #ff4081;
+  color: white;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #e2336f;
+}
+
+.weather-info {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
